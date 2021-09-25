@@ -4,6 +4,25 @@
 <%
 	porder p = (porder)session.getAttribute("P");
 %>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+function varitext(text){
+text=document
+print(text)
+}
+//  End -->
+</script>
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,7 +62,15 @@
 						<hr>	
 					<tr>
 						<td colspan=2 align=center>
-						<a href="index.jsp">首頁</a>										
+						<a href="index.jsp">首頁</a>		
+						<DIV ALIGN="CENTER">
+							<FORM>
+								<INPUT NAME="print" TYPE="button" VALUE="列印此頁"
+								ONCLICK="varitext()">	
+							</FORM>
+						</DIV>
+						
+														
 			</table>	
 		<tr>
 			<td height=100 align=center><jsp:include page="end.jsp"></jsp:include>
